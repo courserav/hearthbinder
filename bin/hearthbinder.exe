@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/hearthbinder' #requiring hearthbinder folder within lib
+
+Hearthbinder::CLI.new.call
+
+
+
